@@ -61,5 +61,12 @@ vim.opt.cursorline = true
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
 
+-- Tab to space
+vim.opt.shiftwidth = 2
+vim.opt.softtabstop = 2
+vim.expandtab = true
+
+-- Column preview for breakline
+vim.opt.colorcolumn = "81"
 -- vim: ts=2 sts=2 sw=2 et
 

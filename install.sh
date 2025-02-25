@@ -29,6 +29,9 @@ cp $HOME/config_ubuntu/dotfiles/.bashrc $HOME/.bashrc
 # enable touchpad in X
 sudo cp ./other/90-touchpad.conf /etc/X11/xorg.conf.d/90-touchpad.conf
 
+# firefox smooth scrolling
+sudo echo "MOZ_USE_XINPUT2=1" >> /etc/environment
+
 # install neovim from source
 # TODO
 sudo apt install git make unzip ripgrep

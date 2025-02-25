@@ -12,6 +12,8 @@ require('lazy').setup({
   require 'plugins/cmp',
   require 'plugins/treesitter',
   require 'plugins/theme',
+  require 'plugins/which-key',
+
 
   -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
   --'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
@@ -20,7 +22,6 @@ require('lazy').setup({
   -- include a plugin definition from file lua/path/name.lua
 
   --require 'plugins/gitsigns',
-  --require 'plugins/which-key',
   --require 'plugins/conform',
   --require 'plugins/tokyonight',
   --require 'plugins/todo-comments',

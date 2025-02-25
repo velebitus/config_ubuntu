@@ -29,8 +29,13 @@ cp $HOME/config_ubuntu/dotfiles/.bashrc $HOME/.bashrc
 # enable touchpad in X
 sudo cp ./other/90-touchpad.conf /etc/X11/xorg.conf.d/90-touchpad.conf
 
+# give permissions for brightness script
+# different for different computer systems
+# current script designed for dell latitude 7430 intel i5
+sudo chmod u+x /sys/class/backlight/intel_backlight/brightness
+
 # firefox smooth scrolling
-sudo echo "MOZ_USE_XINPUT2=1" >> /etc/environment
+echo "MOZ_USE_XINPUT2=1" | sudo tee -a /etc/environment
 
 # install neovim from source
 # TODO

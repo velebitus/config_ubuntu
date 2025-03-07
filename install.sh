@@ -14,6 +14,8 @@ sudo apt install i3
 sudo apt install picom
 sudo apt install git
 sudo apt install kitty
+sudo apt install xclip
+sudo apt install maim
 
 sudo snap install keepassxc
 sudo snap install discord

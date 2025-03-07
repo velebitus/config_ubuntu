@@ -201,3 +201,8 @@ bar {
 exec --no-startup-id picom -b
 default_border pixel 1
 default_floating_border pixel 1
+
+# Screenshots
+## Clipboard Screenshots
+# bindsym [keybinding] exec --no-startup-id maim | xclip -selection clipboard -t image/png
+bindsym $mod+Shift+s exec --no-startup-id maim --select | xclip -selection clipboard -t image/png

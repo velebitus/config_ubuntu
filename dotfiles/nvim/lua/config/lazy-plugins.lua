@@ -13,6 +13,7 @@ require('lazy').setup({
   require 'plugins/treesitter',
   require 'plugins/theme',
   require 'plugins/which-key',
+  require 'plugins/conform',
 
 
   -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
@@ -22,7 +23,6 @@ require('lazy').setup({
   -- include a plugin definition from file lua/path/name.lua
 
   --require 'plugins/gitsigns',
-  --require 'plugins/conform',
   --require 'plugins/tokyonight',
   --require 'plugins/todo-comments',
   --require 'plugins/mini',
